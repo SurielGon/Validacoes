@@ -16,7 +16,7 @@ describe('Fone', () => {
   it('Set fone', () => {
     fone.setFone('44', '44332211', false);
     expect(fone).toEqual({
-      digito: '55',
+      digito: '44',
       numero: '44332211',
       celular: false,
     });
